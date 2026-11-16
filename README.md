@@ -20,9 +20,12 @@ Wildlife Sightings Logger & Spatial Mapper is an object-oriented Python applicat
 By combining geospatial analysis, persistent JSON storage, and interactive mapping, this project transforms simple field observations into meaningful spatial insights.
 
 ✨ Features
+
 <img width="937" height="505" alt="image" src="https://github.com/user-attachments/assets/fa7f926e-b954-4daa-a208-cc3750f9dc9b" />
 
+
 🛠️ Tech Stack
+
 Python – Core application development
 Shapely – Geometric operations and spatial boundary analysis
 Folium – Interactive geographical visualization
@@ -43,6 +46,8 @@ Store Observations: Records are serialized into JSON for persistence across sess
 Generate Visualizations: Folium creates interactive maps containing wildlife markers and conservation boundaries.
 
 🎨 Map Legend
+
+
 <img width="776" height="221" alt="image" src="https://github.com/user-attachments/assets/8b3b6672-bfb7-439a-8f26-6ea68c3b3a5f" />
 
 🧠 Object-Oriented Design
