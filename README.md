@@ -21,13 +21,14 @@ By combining geospatial analysis, persistent JSON storage, and interactive mappi
 
 ✨ Features
 Feature	Description
-🐾 Wildlife Logging -	Record species, coordinates, dates, and observation details
-🏞️ Protected Zones - Define conservation reserves using polygon boundaries
-📍 Spatial Analysis -	Determine whether sightings fall inside or outside protected areas
-💾 Persistent Storage -	Automatically save and retrieve sightings using JSON
-🗺️ Interactive Maps -	Visualize wildlife observations and reserve boundaries
-🚨 Species Classification -	Distinguish endangered and common species using colored markers
-🧩 OOP Architecture	 - Modular, reusable, and maintainable Python classes
+🐾 Wildlife Sightings Logging	Record wildlife observations with species names, geographical coordinates, dates, and other relevant details.
+🏞️ Protected Zone Management	Define conservation reserves using multi-vertex geographical polygon boundaries.
+📍 Geospatial Boundary Analysis	Use Shapely to determine whether wildlife sightings fall inside or outside protected areas.
+💾 Persistent JSON Storage	Automatically serialize and deserialize wildlife records to maintain data across application sessions.
+🗺️ Interactive Map Visualization	Generate interactive geographical maps using Folium with wildlife markers and reserve boundaries.
+🚨 Species Classification	Distinguish endangered species (🔴 Red) from common species (🔵 Blue) through color-coded map markers.
+🧩 Object-Oriented Architecture	Organize functionality into reusable classes: Sighting, ProtectedZone, WildlifeTracker, and MapExporter.
+🌍 Conservation Monitoring	Visualize the spatial relationship between wildlife observations and protected conservation zones.
 
 🛠️ Tech Stack
 Python – Core application development
