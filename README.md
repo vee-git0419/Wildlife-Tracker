@@ -20,15 +20,7 @@ Wildlife Sightings Logger & Spatial Mapper is an object-oriented Python applicat
 By combining geospatial analysis, persistent JSON storage, and interactive mapping, this project transforms simple field observations into meaningful spatial insights.
 
 ✨ Features
-Feature	Description
-🐾 Wildlife Sightings Logging	Record wildlife observations with species names, geographical coordinates, dates, and other relevant details.
-🏞️ Protected Zone Management	Define conservation reserves using multi-vertex geographical polygon boundaries.
-📍 Geospatial Boundary Analysis	Use Shapely to determine whether wildlife sightings fall inside or outside protected areas.
-💾 Persistent JSON Storage	Automatically serialize and deserialize wildlife records to maintain data across application sessions.
-🗺️ Interactive Map Visualization	Generate interactive geographical maps using Folium with wildlife markers and reserve boundaries.
-🚨 Species Classification	Distinguish endangered species (🔴 Red) from common species (🔵 Blue) through color-coded map markers.
-🧩 Object-Oriented Architecture	Organize functionality into reusable classes: Sighting, ProtectedZone, WildlifeTracker, and MapExporter.
-🌍 Conservation Monitoring	Visualize the spatial relationship between wildlife observations and protected conservation zones.
+<img width="937" height="505" alt="image" src="https://github.com/user-attachments/assets/fa7f926e-b954-4daa-a208-cc3750f9dc9b" />
 
 🛠️ Tech Stack
 Python – Core application development
@@ -38,22 +30,8 @@ JSON – Lightweight data persistence
 
 📂 Project Structure
 
-wildlife-sightings-mapper/
-│
-├── data/
-│   └── sightings.json          # Persistent wildlife records
-│
-├── output/
-│   └── wildlife_map.html       # Generated interactive map
-│
-├── src/
-│   ├── models.py               # Sighting & ProtectedZone classes
-│   ├── tracker.py              # Data management & spatial queries
-│   └── mapper.py               # Folium map generation
-│
-├── main.py                     # Application entry point
-├── requirements.txt            # Project dependencies
-└── README.md                   # Project documentation
+<img width="860" height="427" alt="image" src="https://github.com/user-attachments/assets/bf5f88e2-ac01-440c-b75d-0780d61f4cea" />
+
 
 🗺️ How It Works
 
@@ -65,10 +43,7 @@ Store Observations: Records are serialized into JSON for persistence across sess
 Generate Visualizations: Folium creates interactive maps containing wildlife markers and conservation boundaries.
 
 🎨 Map Legend
-Marker	            Meaning
-🔴 Red	            Endangered species
-🔵 Blue 	          Common species
-🟢 Green boundary	  Protected conservation zone
+<img width="776" height="221" alt="image" src="https://github.com/user-attachments/assets/8b3b6672-bfb7-439a-8f26-6ea68c3b3a5f" />
 
 🧠 Object-Oriented Design
 
@@ -85,5 +60,5 @@ This project is intended for educational and wildlife-conservation purposes.
 <p align="center">
 🌿 <b>Protect Wildlife. Preserve Nature. Map the Future.</b> 🌿
 <br/><br/>
-<i>Built with Python and a passion for biodiversity.</i>
+<i>Built with Python and a passion for biodiversity conservation.</i>
 </p>
