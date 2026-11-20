@@ -58,7 +58,7 @@ Generate Visualizations: Folium creates interactive maps containing wildlife mar
 
 
 
-🧠 Object-Oriented Design
+<b>🧠 Object-Oriented Design </b>
 
 The application is organized around four primary components:
 Sighting: Represents an individual wildlife observation.
