@@ -14,19 +14,19 @@ A Python-based wildlife monitoring system designed to record animal sightings, a
 </p>
 
 
-🦌 Overview
+<b>🦌 Overview</b>
 
 Wildlife conservation begins with understanding where animals live, move, and thrive.
 Wildlife Sightings Logger & Spatial Mapper is an object-oriented Python application that provides a structured way to record wildlife observations and analyze their geographical relationship with protected conservation areas.
 By combining geospatial analysis, persistent JSON storage, and interactive mapping, this project transforms simple field observations into meaningful spatial insights.
 
 
-✨ Features
+<b>✨ Features</b>
 
 <img width="937" height="505" alt="image" src="https://github.com/user-attachments/assets/fa7f926e-b954-4daa-a208-cc3750f9dc9b" />
 
 
-🛠️ Tech Stack
+<b>🛠️ Tech Stack</b>
 
 Python – Core application development
 
@@ -37,12 +37,12 @@ Folium – Interactive geographical visualization
 JSON – Lightweight data persistence
 
 
-📂 Project Structure
+<b>📂 Project Structure</b>
 
 <img width="860" height="427" alt="image" src="https://github.com/user-attachments/assets/bf5f88e2-ac01-440c-b75d-0780d61f4cea" />
 
 
-🗺️ How It Works
+<b>🗺️ How It Works</b>
 
 The application follows a modular object-oriented architecture.
 Record Sightings: Wildlife observations are captured with species information and geographical coordinates.
@@ -51,7 +51,7 @@ Perform Spatial Analysis: Shapely evaluates the geographical relationship betwee
 Store Observations: Records are serialized into JSON for persistence across sessions.
 Generate Visualizations: Folium creates interactive maps containing wildlife markers and conservation boundaries.
 
-🎨 Map Legend
+<b>🎨 Map Legend</b>
 
 
 <img width="776" height="221" alt="image" src="https://github.com/user-attachments/assets/8b3b6672-bfb7-439a-8f26-6ea68c3b3a5f" />
