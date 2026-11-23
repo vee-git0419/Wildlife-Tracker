@@ -1,0 +1,50 @@
+[
+    {
+        "species": "Snow Leopard",
+        "lat": 33.91,
+        "lon": 77.45,
+        "count": 1,
+        "is_endangered": true,
+        "timestamp": "2026-11-15 17:38:39"
+    },
+    {
+        "species": "Himalayan Blue Sheep",
+        "lat": 33.85,
+        "lon": 77.5,
+        "count": 12,
+        "is_endangered": false,
+        "timestamp": "2026-11-15 17:38:39"
+    },
+    {
+        "species": "Snow Leopard",
+        "lat": 33.91,
+        "lon": 77.45,
+        "count": 1,
+        "is_endangered": true,
+        "timestamp": "2026-11-15 17:38:39"
+    },
+    {
+        "species": "Himalayan Blue Sheep",
+        "lat": 33.85,
+        "lon": 77.5,
+        "count": 12,
+        "is_endangered": false,
+        "timestamp": "2026-11-15 17:38:39"
+    },
+    {
+        "species": "Snow Leopard",
+        "lat": 34.0,
+        "lon": 77.45,
+        "count": 1,
+        "is_endangered": true,
+        "timestamp": "2026-11-15 17:38:39"
+    },
+    {
+        "species": "Himalayan Blue Sheep",
+        "lat": 33.85,
+        "lon": 77.5,
+        "count": 15,
+        "is_endangered": false,
+        "timestamp": "2026-11-15 17:38:39"
+    }
+]
