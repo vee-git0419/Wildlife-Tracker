@@ -4,6 +4,11 @@ from shapely.geometry import Point, Polygon
 from shapely.geometry import mapping
 import folium 
 
+from src.models import ProtectedZone
+from src.tracker import WildlifeTracker
+from src.mapper import MapExporter
+from src.cli import WildlifeCli
+
 class Sighting:
     #store facts of an observation
     def __init__(self, species: str, lat: float, lon: float, count: int = 1, is_endangered: bool = False, timestamp: str | None = None):
@@ -228,5 +233,11 @@ if __name__ == "__main__":
 
     # Export the interactive HTML map
     tracker.export_interactive_map("wildlife_polygon_map.html")
+
+
+    tracker = WildlifeTracker("data/sightings.json")
+    mapper = MapExporter()
+    cli = WildlifeCli(tracker, mapper)
+    cli.run()
 
 
