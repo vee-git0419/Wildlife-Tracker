@@ -23,7 +23,16 @@ By combining geospatial analysis, persistent JSON storage, and interactive mappi
 
 <b>✨ Features</b>
 
-<img width="937" height="505" alt="image" src="https://github.com/user-attachments/assets/fa7f926e-b954-4daa-a208-cc3750f9dc9b" />
+| Feature | Description |
+|---|---|
+| 🐾 Wildlife Logging | Record species, coordinates, dates, and observation details |
+| 🖥️ Interactive CLI Menu | Navigate project features through a user-friendly interactive command-line menu with input validation |
+| 🏞️ Protected Zones | Define conservation reserves using polygon boundaries |
+| 📍 Spatial Analysis | Determine whether sightings fall inside or outside protected areas |
+| 💾 Persistent Storage | Automatically save and retrieve sightings using JSON |
+| 🗺️ Interactive Maps | Visualize wildlife observations and reserve boundaries |
+| 🚨 Species Classification | Distinguish endangered and common species using colored markers |
+| 🧩 OOP Architecture | Modular, reusable, and maintainable Python classes |
 
 
 <b>🛠️ Tech Stack</b>
