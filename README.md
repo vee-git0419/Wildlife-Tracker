@@ -47,7 +47,8 @@ JSON – Lightweight data persistence
 
 
 <b>📂 Project Structure</b>
-
+```
+text
 wildlife-sightings-mapper/
 │
 ├── data/
@@ -66,7 +67,7 @@ wildlife-sightings-mapper/
 ├── requirements.txt            # folium, shapely, rich
 ├── .gitignore                  # Ignores venv/, __pycache__/, and output/*.html
 └── README.md                   # Project documentation
-
+```
 
 <b>🗺️ How It Works</b>
 
