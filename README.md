@@ -48,7 +48,24 @@ JSON – Lightweight data persistence
 
 <b>📂 Project Structure</b>
 
-<img width="860" height="427" alt="image" src="https://github.com/user-attachments/assets/bf5f88e2-ac01-440c-b75d-0780d61f4cea" />
+wildlife-sightings-mapper/
+│
+├── data/
+│   └── sightings.json          # Persistent JSON storage for logged sightings
+│
+├── wildlife_polygon_map.html   # Generated interactive Folium map
+│
+├── src/
+│   ├── __init__.py             # Marks src as a Python package
+│   ├── models.py               # Sighting & ProtectedZone (Shapely geometry)
+│   ├── tracker.py              # WildlifeTracker (JSON I/O & spatial checks)
+│   ├── mapper.py               # MapExporter (Folium HTML rendering)
+│   └── cli.py                  # WildlifeCLI (Rich menus, tables & input validation)
+│
+├── main.py                     # Entry point (tracker, zones, mapper & CLI)
+├── requirements.txt            # folium, shapely, rich
+├── .gitignore                  # Ignores venv/, __pycache__/, and output/*.html
+└── README.md                   # Project documentation
 
 
 <b>🗺️ How It Works</b>
